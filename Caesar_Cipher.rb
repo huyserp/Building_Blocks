@@ -73,22 +73,6 @@ def caesar_cipher(phrase, shift)
     new_phrase = split_phrase.join
 end
 
-puts puts
-puts "Caesar_Cipher: Where is the door?; slide 2"
-puts caesar_cipher("Where is the door?", 2)
-puts puts
-puts "Caesar_Cipher: Turtle; slide 7"
-puts caesar_cipher("Turtle", 7)
-puts puts
-puts "Caesar_Cipher: ZzZz; slide 3"
-puts caesar_cipher("ZzZz", 3)
-puts puts
-puts "Caesar_Cipher: CcCc; slide -2"
-puts caesar_cipher("CcCc", -2)
-puts puts
-puts "Caesar_Cipher: Please, kind sir, would you point me to the nearest exit?; slide -3"
-puts caesar_cipher("Please, kind sir, would you point me to the nearest exit?", -3)
-puts puts
 
 #ALTERNATE PROGRAM - DOESNT ALLOW BACK AND FORTH, OR ARUOND THE "U"
 # def caesar_cipher(phrase, shift)
